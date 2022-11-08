@@ -43,10 +43,15 @@ body {
 }
 
 /* 시계 박스 위 HRS / MIN / SEC */
-.tim-deec .desc-hrs,
-.tim-deec .desc-min,
-.tim-deec .desc-sec{
-  margin: 0 70px;
+.tim-desc {
+  margin-bottom: 4px;
+}
+
+.tim-desc .desc-hrs,
+.tim-desc .desc-min,
+.tim-desc .desc-sec {
+  color: #A5B6EE;
+  margin: 4px 30px;
 }
 
 /* 시계 박스 */
@@ -59,14 +64,21 @@ body {
   border: 1px solid #354971;
   border-radius: 4px;
   display: inline-block;
+  margin-bottom: 40px;
 }
 
 /* :  */
 .tim-fun .fun-icon {
-  display: inline-block;
-  padding :25px 0;
+  
 }
 
+
+/* 버튼 */
+.btn_fun{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
 /* 시작 버튼 */
 .btn-sta {
@@ -75,7 +87,7 @@ body {
   border-radius: 50px;
   width: 112px;
   height: 48px;
-
+  margin: 0 12px;
 }
 
 
@@ -86,7 +98,6 @@ body {
   border-radius: 50px;
   width: 112px;
   height: 48px;
-  
 }
 
 
